@@ -3,20 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static Page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Static Navigation Bar with Search</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body> 
-      <header class=" header">
-        <input type="search" name="" id="search-bar">
-        <input type="submit" value="Submit" id="submit button">
-        <nav class="Navbar">
-            <ul class="navContent">
-                <li id="nav-item"><a href="">Home</a></li>
-                <li id="nav-item"><a href="">Contact</a></li>
-                <li id="nav-item"><a href="">About</a></li>
-            </ul>
-        </nav>
-      </header>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <!-- Navigation links -->
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <!-- Search bar -->
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div style="padding:20px; margin-top:50px;">
+        <h1>Static Navigation Bar with Search Bar</h1>
+        <p>Scroll down to see the sticky effect. The navigation bar will stick to the top when you reach its position.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod nisi et magna malesuada, ac blandit lectus accumsan. Donec commodo leo quis felis efficitur, nec ullamcorper purus aliquet.</p>
+        <p>More content here...</p>
+    </div>
+
 </body>
 </html>
